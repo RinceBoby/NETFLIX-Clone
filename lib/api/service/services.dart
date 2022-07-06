@@ -19,9 +19,8 @@ List urls = [
 
 class DownloadService extends GetxController {
   Future<List<NetflixModel>?> getMethod(String url) async {
+    
     var response = await http.get(Uri.parse(url));
-     
-  
 
     if (response.statusCode == 200) {
       Map<String, dynamic> body = await json.decode(response.body);
