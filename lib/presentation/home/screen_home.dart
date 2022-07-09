@@ -12,6 +12,7 @@ import 'widgets/number_title_card.dart';
 
 ValueNotifier<bool> scrollNotifier = ValueNotifier(true);
 
+// ignore: must_be_immutable
 class ScreenHome extends StatelessWidget {
   ScreenHome({Key? key}) : super(key: key);
 
@@ -147,7 +148,7 @@ class ScreenHome extends StatelessWidget {
   }
 }
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Categories_List>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Categories_List>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
 Future<Object?> _showCategoriesList(BuildContext context) {
   return showGeneralDialog(
     context: context,

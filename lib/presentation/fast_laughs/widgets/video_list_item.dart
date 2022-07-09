@@ -68,19 +68,19 @@ class VideoListItem extends StatelessWidget {
                                   NetworkImage(kBaseUrl + data.image.toString()),
                             ),
                             kHeight,
-                            VideoActionsWidget(
+                            const VideoActionsWidget(
                               icon: Icons.emoji_emotions_rounded,
                               title: "LOL",
                             ),
-                            VideoActionsWidget(
+                            const VideoActionsWidget(
                               icon: CupertinoIcons.add,
                               title: "My List",
                             ),
-                            VideoActionsWidget(
+                            const VideoActionsWidget(
                               icon: CupertinoIcons.paperplane,
                               title: "Share",
                             ),
-                            VideoActionsWidget(
+                            const VideoActionsWidget(
                               icon: CupertinoIcons.play_arrow_solid,
                               title: "Play",
                             ),
