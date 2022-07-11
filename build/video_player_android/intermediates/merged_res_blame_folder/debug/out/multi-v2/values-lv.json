@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Mobile Development\\week 13 Copy\\netflix\\build\\video_player_android\\intermediates\\res\\merged\\debug\\values-lv\\values-lv.xml",
+            "outputFile": "F:\\Mobile Development\\week 13\\netflix\\build\\video_player_android\\intermediates\\res\\merged\\debug\\values-lv\\values-lv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\f81d7720190f110f0e5c11d71f550860\\jetified-exoplayer-core-2.17.1\\res\\values-lv\\values-lv.xml",
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "outputFile": "F:\\Mobile Development\\week 13 Copy\\netflix\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
+            "outputFile": "F:\\Mobile Development\\week 13\\netflix\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\f81d7720190f110f0e5c11d71f550860\\jetified-exoplayer-core-2.17.1\\res\\values-lv\\values-lv.xml",

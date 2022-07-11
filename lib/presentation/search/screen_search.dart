@@ -64,6 +64,7 @@ class ScreenSearch extends StatelessWidget {
                                   shrinkWrap: true,
                                   itemBuilder: (context, index) {
                                     final data =
+                                        // ignore: invalid_use_of_protected_member
                                         searchControll.data.value[index];
                                     return Row(
                                       children: [
@@ -78,14 +79,20 @@ class ScreenSearch extends StatelessWidget {
                                               ),
                                               fit: BoxFit.cover,
                                             ),
+                                            borderRadius:
+                                                BorderRadius.circular(10),
                                           ),
                                         ),
                                         Expanded(
-                                          child: Text(
-                                            data.title.toString(),
-                                            style: const TextStyle(
-                                              fontWeight: FontWeight.w600,
-                                              fontSize: 18,
+                                          child: Padding(
+                                            padding:
+                                                const EdgeInsets.only(left: 10),
+                                            child: Text(
+                                              data.title.toString(),
+                                              style: const TextStyle(
+                                                fontWeight: FontWeight.w600,
+                                                fontSize: 18,
+                                              ),
                                             ),
                                           ),
                                         ),
@@ -99,6 +106,7 @@ class ScreenSearch extends StatelessWidget {
                                   },
                                   separatorBuilder: (context, index) =>
                                       kHeight15,
+                                  // ignore: invalid_use_of_protected_member
                                   itemCount: searchControll.data.value.length,
                                 ),
                               )
@@ -117,16 +125,18 @@ class ScreenSearch extends StatelessWidget {
                                   crossAxisSpacing: 8,
                                   childAspectRatio: 1 / 1.4,
                                   children: List.generate(
+                                    // ignore: invalid_use_of_protected_member
                                     searchControll.data.value.length,
                                     (index) {
                                       final allData =
+                                          // ignore: invalid_use_of_protected_member
                                           searchControll.data.value[index];
 
-                                      return Container(
+                                      return SizedBox(
                                         height: 200,
                                         width: 110,
                                         child: allData.image == null
-                                            ? Center(
+                                            ? const Center(
                                                 child: Text("No Image Found"),
                                               )
                                             : Image.network(

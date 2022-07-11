@@ -39,6 +39,7 @@ class ScreenHome extends StatelessWidget {
                 ListView(
                   children: [
                     BackgroundCard(),
+                    kHeight15,
                     ReleasedInThePastYear(
                       title: "Released in the Past Year",
                       items: netflixController.upcoming,
@@ -153,7 +154,7 @@ Future<Object?> _showCategoriesList(BuildContext context) {
   return showGeneralDialog(
     context: context,
     pageBuilder: (context, animation, secondaryAnimation) => Scaffold(
-      backgroundColor: Colors.black.withOpacity(.8),
+      backgroundColor: Colors.black.withOpacity(0.8),
       body: Column(
         children: const [
           SizedBox(height: 50),
@@ -181,9 +182,15 @@ class CategoriesListWidget extends StatelessWidget {
           return Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
-                homeCategories[_index],
-                style: kHomePageTextStyle,
+              InkWell(
+                onTap: () {
+                  
+                },
+                child: Text(
+                  homeCategories[_index],
+                  style: kHomePageTextStyle,
+              
+                ),
               ),
             ],
           );

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:4:4-34:19
+INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:4:4-34:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.7.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b9a960218f5163997c0fdfa3d3078c0e\core-1.7.0\AndroidManifest.xml:24:5-89
@@ -10,15 +10,15 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\HP
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b9a960218f5163997c0fdfa3d3078c0e\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
-INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
-INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
-INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
-MERGED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
-MERGED from [:path_provider_android] F:\Mobile Development\week 13 Copy\netflix\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:video_player_android] F:\Mobile Development\week 13 Copy\netflix\build\video_player_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+ADDED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
+MERGED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
+MERGED from [:path_provider_android] F:\Mobile Development\week 13\netflix\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:video_player_android] F:\Mobile Development\week 13\netflix\build\video_player_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad201fac15a88598107ec645f351f5b4\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3bda5006f0da088db4cd11e056b1c724\jetified-exoplayer-hls-2.17.1\AndroidManifest.xml:17:1-24:12
@@ -45,37 +45,37 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HP\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\403e5322101e882ebd13d146c86f92ca\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\16e110bf603f94cf61f970a18f3907e3\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5bfc0955e244073bdc8cc139cda5e092\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:2:5-34
-		INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\debug\AndroidManifest.xml
+		ADDED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:2:5-34
+		INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
-		INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\debug\AndroidManifest.xml
+		INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
-		INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\debug\AndroidManifest.xml
+		INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:3:5-66
-MERGED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:3:5-66
-MERGED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:3:5-66
+ADDED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:3:5-66
+MERGED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:3:5-66
+MERGED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:3:5-66
 	android:name
-		ADDED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:3:22-64
+		ADDED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:3:22-64
 uses-sdk
-INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml
-INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml
-MERGED from [:path_provider_android] F:\Mobile Development\week 13 Copy\netflix\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] F:\Mobile Development\week 13 Copy\netflix\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:video_player_android] F:\Mobile Development\week 13 Copy\netflix\build\video_player_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:video_player_android] F:\Mobile Development\week 13 Copy\netflix\build\video_player_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml
+MERGED from [:path_provider_android] F:\Mobile Development\week 13\netflix\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] F:\Mobile Development\week 13\netflix\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:video_player_android] F:\Mobile Development\week 13\netflix\build\video_player_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:video_player_android] F:\Mobile Development\week 13\netflix\build\video_player_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad201fac15a88598107ec645f351f5b4\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ad201fac15a88598107ec645f351f5b4\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
@@ -128,14 +128,14 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\HP\.gradle\caches\t
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\16e110bf603f94cf61f970a18f3907e3\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5bfc0955e244073bdc8cc139cda5e092\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5bfc0955e244073bdc8cc139cda5e092\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\debug\AndroidManifest.xml
-INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\debug\AndroidManifest.xml
+INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\debug\AndroidManifest.xml
+INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\debug\AndroidManifest.xml
+		INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Mobile Development\week 13 Copy\netflix\android\app\src\debug\AndroidManifest.xml
+		INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Mobile Development\week 13\netflix\android\app\src\debug\AndroidManifest.xml
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 	android:required

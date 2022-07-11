@@ -12,8 +12,8 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:3:5-66
-14-->F:\Mobile Development\week 13 Copy\netflix\android\app\src\main\AndroidManifest.xml:3:22-64
+14-->F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:3:5-66
+14-->F:\Mobile Development\week 13\netflix\android\app\src\main\AndroidManifest.xml:3:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 15-->[com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f81d7720190f110f0e5c11d71f550860\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:24:5-79
 15-->[com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f81d7720190f110f0e5c11d71f550860\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:24:22-76

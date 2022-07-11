@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Mobile Development\\week 13 Copy\\netflix\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "F:\\Mobile Development\\week 13\\netflix\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8578375fbf5df5bbe65cca21a6cd6acf\\lifecycle-runtime-2.3.1\\res\\values\\values.xml",
@@ -78,7 +78,7 @@
             ]
         },
         {
-            "outputFile": "F:\\Mobile Development\\week 13 Copy\\netflix\\build\\video_player_android\\intermediates\\res\\merged\\debug\\values\\values.xml",
+            "outputFile": "F:\\Mobile Development\\week 13\\netflix\\build\\video_player_android\\intermediates\\res\\merged\\debug\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\8578375fbf5df5bbe65cca21a6cd6acf\\lifecycle-runtime-2.3.1\\res\\values\\values.xml",
