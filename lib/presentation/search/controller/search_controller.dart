@@ -6,7 +6,7 @@ class SearchController extends GetxController{
   var loading = true.obs;
   RxList<SearchModel> data = <SearchModel>[].obs;
   putData(query) async{
-    data.value = await SerachService().postMethod(query);
+    data.value = await SearchService().postMethod(query);
   }
   @override
   void onInit() {

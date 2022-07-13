@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:netflix/presentation/search/model/search_model.dart';
 import 'package:http/http.dart' as http;
 
-class SerachService {
+class SearchService {
   Future<List<SearchModel>> postMethod(String query) async {
     var response = await http.get(
       Uri.parse(

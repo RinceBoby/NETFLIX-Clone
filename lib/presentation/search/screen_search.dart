@@ -11,13 +11,14 @@ import 'controller/search_controller.dart';
 class ScreenSearch extends StatelessWidget {
   ScreenSearch({Key? key}) : super(key: key);
 
-  Controller listController = Get.find<Controller>();
+  //Controller listController = Get.find<Controller>();
 
   TextEditingController searchTextContorll = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     final searchControll = Get.put(SearchController());
+
     final screenWidth = MediaQuery.of(context).size.width;
 
     return Scaffold(
@@ -49,9 +50,6 @@ class ScreenSearch extends StatelessWidget {
               kHeight,
               Obx(
                 () {
-                  if (searchTextContorll.text.isEmpty) {
-                    searchControll.putData("movies & TV");
-                  }
                   return Expanded(
                     child: searchTextContorll.text.isEmpty
                         ? Column(
@@ -118,35 +116,49 @@ class ScreenSearch extends StatelessWidget {
                               const SearchTitle(title: "Movies & TV"),
                               kHeight,
                               Expanded(
-                                child: GridView.count(
-                                  shrinkWrap: true,
-                                  crossAxisCount: 3,
-                                  mainAxisSpacing: 8,
-                                  crossAxisSpacing: 8,
-                                  childAspectRatio: 1 / 1.4,
-                                  children: List.generate(
-                                    // ignore: invalid_use_of_protected_member
-                                    searchControll.data.value.length,
-                                    (index) {
-                                      final allData =
+                                // ignore: invalid_use_of_protected_member
+                                child: searchControll.data.value.isEmpty
+                                    ? const Center(
+                                        child: Text(
+                                          'Item not found!',
+                                          style: TextStyle(
+                                            fontSize: 20,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                      )
+                                    : GridView.count(
+                                        shrinkWrap: true,
+                                        crossAxisCount: 3,
+                                        mainAxisSpacing: 8,
+                                        crossAxisSpacing: 8,
+                                        childAspectRatio: 1 / 1.4,
+                                        children: List.generate(
                                           // ignore: invalid_use_of_protected_member
-                                          searchControll.data.value[index];
+                                          searchControll.data.value.length,
+                                          (index) {
+                                            final allData =
+                                                // ignore: invalid_use_of_protected_member
+                                                searchControll
+                                                    .data.value[index];
 
-                                      return SizedBox(
-                                        height: 200,
-                                        width: 110,
-                                        child: allData.image == null
-                                            ? const Center(
-                                                child: Text("No Image Found"),
-                                              )
-                                            : Image.network(
-                                                kBaseUrl +
-                                                    allData.image.toString(),
-                                              ),
-                                      );
-                                    },
-                                  ),
-                                ),
+                                            return SizedBox(
+                                              height: 200,
+                                              width: 110,
+                                              child: allData.image == null
+                                                  ? const Center(
+                                                      child: Text(
+                                                          "No Image Found"),
+                                                    )
+                                                  : Image.network(
+                                                      kBaseUrl +
+                                                          allData.image
+                                                              .toString(),
+                                                    ),
+                                            );
+                                          },
+                                        ),
+                                      ),
                               ),
                             ],
                           ),
